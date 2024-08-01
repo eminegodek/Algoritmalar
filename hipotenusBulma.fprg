@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Emine G&#246;dek"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-01 09:45:23 &#214;S"/>
+        <attribute name="created" value="RW1pbmUgR8O2ZGVrO0RFU0tUT1AtNTk5SjREOTsyMDI0LTA4LTAxOzA5OjQwOjQ3IMOWUzszNTc3"/>
+        <attribute name="edited" value="RW1pbmUgR8O2ZGVrO0RFU0tUT1AtNTk5SjREOTsyMDI0LTA4LTAxOzA5OjQ1OjIzIMOWUzsxOzM2ODQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, hipotenus" type="Real" array="False" size=""/>
+            <output expression="&quot;Say&#305; Giriniz:&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Say&#305; Giriniz:&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="hipotenus" expression="sqrt(a^2 + b^2)"/>
+            <output expression="&quot;Hipoten&#252;s:&quot;&amp;hipotenus" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
