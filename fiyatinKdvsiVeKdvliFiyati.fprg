@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Emine G&#246;dek"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-01 09:21:40 &#214;S"/>
+        <attribute name="created" value="RW1pbmUgR8O2ZGVrO0RFU0tUT1AtNTk5SjREOTsyMDI0LTA4LTAxOzA4OjIwOjUwIMOWUzszNTY4"/>
+        <attribute name="edited" value="RW1pbmUgR8O2ZGVrO0RFU0tUT1AtNTk5SjREOTsyMDI0LTA4LTAxOzA5OjIxOjQwIMOWUzs0OzM2ODA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi1" type="Integer" array="False" size=""/>
+            <declare name="kdv" type="Real" array="False" size=""/>
+            <declare name="kdvli" type="Real" array="False" size=""/>
+            <output expression="&quot;Fiyat giriniz:&quot;" newline="True"/>
+            <input variable="sayi1"/>
+            <assign variable="kdv" expression="sayi1*(20/100)"/>
+            <assign variable="kdvli" expression="sayi1+kdv"/>
+            <output expression="&quot;Kdv:&quot;&amp;kdv" newline="True"/>
+            <output expression="&quot;Kdvli Fiyat:&quot;&amp;kdvli" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

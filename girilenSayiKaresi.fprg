@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Emine G&#246;dek"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-01 08:20:27 &#214;S"/>
+        <attribute name="created" value="RW1pbmUgR8O2ZGVrO0RFU0tUT1AtNTk5SjREOTsyMDI0LTA4LTAxOzA4OjEzOjE2IMOWUzszNTcy"/>
+        <attribute name="edited" value="RW1pbmUgR8O2ZGVrO0RFU0tUT1AtNTk5SjREOTsyMDI0LTA4LTAxOzA4OjIwOjI3IMOWUzsxOzM2ODA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi1" type="Integer" array="False" size=""/>
+            <declare name="Karesi" type="Integer" array="False" size=""/>
+            <output expression="&quot;Sayi giriniz:&quot;" newline="True"/>
+            <input variable="sayi1"/>
+            <assign variable="Karesi" expression="sayi1*sayi1"/>
+            <output expression="&quot;Karesi:&quot;&amp;Karesi" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Emine G&#246;dek"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-01 08:42:42 &#214;S"/>
+        <attribute name="created" value="RW1pbmUgR8O2ZGVrO0RFU0tUT1AtNTk5SjREOTsyMDI0LTA4LTAxOzA4OjM2OjI1IMOWUzszNTc3"/>
+        <attribute name="edited" value="RW1pbmUgR8O2ZGVrO0RFU0tUT1AtNTk5SjREOTsyMDI0LTA4LTAxOzA4OjQyOjQyIMOWUzsxOzM2ODE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kenar1" type="Integer" array="False" size=""/>
+            <declare name="kenar2" type="Integer" array="False" size=""/>
+            <declare name="cevre" type="Integer" array="False" size=""/>
+            <declare name="alan" type="Integer" array="False" size=""/>
+            <output expression="&quot;Kenar1 Giriniz:&quot;" newline="True"/>
+            <input variable="kenar1"/>
+            <output expression="&quot;Kenar2 Giriniz:&quot;" newline="True"/>
+            <input variable="kenar2"/>
+            <assign variable="alan" expression="kenar1*kenar2"/>
+            <assign variable="cevre" expression="kenar1+kenar2"/>
+            <output expression="&quot;Alan:&quot;&amp;alan" newline="True"/>
+            <output expression="&quot;&#199;evre:&quot;&amp;cevre" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
